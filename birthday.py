@@ -46,13 +46,101 @@ if str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
 elif int(year) < int(1980):
     age = "Stone age."
+    if monthb == "December":
+    season = "winter"
+elif monthb == "January":
+    season = "winter"
+elif monthb == "February":
+    season = "winter"
+elif monthb == "March":
+    season = "spring"
+elif monthb == "April":
+    season = "spring"
+elif monthb == "May":
+    season = "spring"
+elif monthb == "June":
+    season = "summer"
+elif monthb == "July":
+    season = "summer"
+elif monthb == "August":
+    season = "summer"
+else:
+    season = "fall"
+print(name + ", you are a " + season + " baby of the " + age)
+
 elif int(year) <int(1990):
     age = "eighties."
+    if monthb == "December":
+    season = "winter"
+elif monthb == "January":
+    season = "winter"
+elif monthb == "February":
+    season = "winter"
+elif monthb == "March":
+    season = "spring"
+elif monthb == "April":
+    season = "spring"
+elif monthb == "May":
+    season = "spring"
+elif monthb == "June":
+    season = "summer"
+elif monthb == "July":
+    season = "summer"
+elif monthb == "August":
+    season = "summer"
+else:
+    season = "fall"
+print(name + ", you are a " + season + " baby of the " + age)
+
 elif int(year) < int(2000):
     age = "nineties."
+    if monthb == "December":
+    season = "winter"
+elif monthb == "January":
+    season = "winter"
+elif monthb == "February":
+    season = "winter"
+elif monthb == "March":
+    season = "spring"
+elif monthb == "April":
+    season = "spring"
+elif monthb == "May":
+    season = "spring"
+elif monthb == "June":
+    season = "summer"
+elif monthb == "July":
+    season = "summer"
+elif monthb == "August":
+    season = "summer"
+else:
+    season = "fall"
+print(name + ", you are a " + season + " baby of the " + age)
+
 else:
     age = "two thousands."
+    if monthb == "December":
+    season = "winter"
+elif monthb == "January":
+    season = "winter"
+elif monthb == "February":
+    season = "winter"
+elif monthb == "March":
+    season = "spring"
+elif monthb == "April":
+    season = "spring"
+elif monthb == "May":
+    season = "spring"
+elif monthb == "June":
+    season = "summer"
+elif monthb == "July":
+    season = "summer"
+elif monthb == "August":
+    season = "summer"
+else:
+    season = "fall"
+print(name + ", you are a " + season + " baby of the " + age)
 
+"""
 if monthb == "December":
     season = "winter"
 elif monthb == "January":
@@ -74,3 +162,4 @@ elif monthb == "August":
 else:
     season = "fall"
 print(name + ", you are a " + season + " baby of the " + age)
+"""
