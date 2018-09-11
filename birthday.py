@@ -47,11 +47,11 @@ day = input("And the day?")
 
 if moonth == month and todaydate == day:
     print("Happy birthday!")
-elif year < int(1980):
+elif int(year) < int(1980):
     age = "Stone age"
-elif year <int(1990):
+elif int(year) <int(1990):
     age = "eighties"
-elif year < int(2000):
+elif int(year) < int(2000):
     age = "nineties"
 else:
     age = "two thousands"
