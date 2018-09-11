@@ -36,8 +36,6 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 moonth = month_name[todaymonth]
-print(moonth)
-print(todaydate)
 name = input("Hello, what is your name?")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
 year = input("And what year were you born in, " +name + "?")
@@ -49,11 +47,11 @@ day = input("And the day?")
 
 if moonth == month and todaydate == day:
     print("Happy birthday!")
-elif year < 1980:
+elif year < int(1980):
     age = "Stone age"
-elif year <1990:
+elif year <int(1990):
     age = "eighties"
-elif year < 2000:
+elif year < int(2000):
     age = "nineties"
 else:
     age = "two thousands"
