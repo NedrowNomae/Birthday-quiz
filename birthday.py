@@ -55,6 +55,6 @@ elif int(year) < int(2000):
     age = "nineties."
 else:
     age = "two thousands."
-if str(month) == str(December) or str(January) or str(February):
+if str(month) == "December" or "January" or "February":
     print(name + ", you are a winter baby of the " + age)
 
