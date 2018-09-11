@@ -53,9 +53,17 @@ elif int(year) < int(2000):
 else:
     age = "two thousands."
 
-if monthb == "December" or "January" or "February":
+if monthb == "December":
     season = "winter"
-elif monthb == "March" or "April" or "May":
+elif monthb == "January":
+    season = "winter"
+elif monthb == "February":
+    season = "winter"
+elif monthb == "March":
+    season = "spring"
+elif monthb == "April":
+    season = "spring"
+elif monthb == "May":
     season = "spring"
 elif monthb == "June" or "July" or "August":
     season = "summer"
