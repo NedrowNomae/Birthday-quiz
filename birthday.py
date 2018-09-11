@@ -50,12 +50,12 @@ day = input("And the day?")
 if moonth == month and todaydate == day:
     print("Happy birthday!")
 elif year < 1980:
-    age = Stone age
+    age = "Stone age"
 elif year <1990:
-    age = eighties
+    age = "eighties"
 elif year < 2000:
-    age = nineties
+    age = "nineties"
 else:
-    age = two thousands
+    age = "two thousands"
 print(age)
 
