@@ -45,7 +45,7 @@ day = input("And the day?")
 #summer = [June,june,July,july,August,august]
 #fall = [September,september,October,october,November,november]
 
-if moonth == month and todaydate == day:
+if str(moonth) == str(month) and int(todaydate) == int(day):
     print("Happy birthday!")
 elif int(year) < int(1980):
     age = "Stone age"
