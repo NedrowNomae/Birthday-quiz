@@ -56,11 +56,11 @@ elif int(year) < int(2000):
 else:
     age = "two thousands."
     
-if str(month) == "December" or "January" or "February":
+if month == "December" or "January" or "February":
     print(name + ", you are a winter baby of the " + age)
-elif str(month) == "March" or "April" or "May":
+elif month == "March" or "April" or "May":
     print(name + ", you are a spring baby of the " + age)
-elif str(month) == "June" or "July" or "August":
+elif month == "June" or "July" or "August":
     print(name + ", you are a summer baby of the " + age)
 else:
     print(name + ", you are a fall baby of the " + age)
