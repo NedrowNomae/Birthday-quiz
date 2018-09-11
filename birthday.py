@@ -52,12 +52,12 @@ elif int(year) < int(2000):
     age = "nineties."
 else:
     age = "two thousands."
-print(monthb)
-if monthb == "December" or "January" or "February":
-    print(name + ", you are a winter baby of the " + age)
-elif monthb == "March" or "April" or "May":
-    print(name + ", you are a spring baby of the " + age)
-elif monthb == "June" or "July" or "August":
-    print(name + ", you are a summer baby of the " + age)
-else:
-    print(name + ", you are a fall baby of the " + age)
+
+    if monthb == "December" or "January" or "February":
+        print(name + ", you are a winter baby of the " + age)
+    elif monthb == "March" or "April" or "May":
+        print(name + ", you are a spring baby of the " + age)
+    elif monthb == "June" or "July" or "August":
+        print(name + ", you are a summer baby of the " + age)
+    else:
+        print(name + ", you are a fall baby of the " + age)
