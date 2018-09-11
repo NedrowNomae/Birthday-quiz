@@ -54,10 +54,11 @@ else:
     age = "two thousands."
 
     if monthb == "December" or "January" or "February":
-        print(name + ", you are a winter baby of the " + age)
+        season = winter
     elif monthb == "March" or "April" or "May":
-        print(name + ", you are a spring baby of the " + age)
+        season = spring
     elif monthb == "June" or "July" or "August":
-        print(name + ", you are a summer baby of the " + age)
+        season = summer
     else:
-        print(name + ", you are a fall baby of the " + age)
+        season = fall
+print(name + ", you are a " + season + " baby of the " + age)
