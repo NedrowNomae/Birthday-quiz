@@ -36,7 +36,7 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 moonth = month_name[todaymonth]
-print(month)
+print(moonth)
 print(todaydate)
 name = input("Hello, what is your name?")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
@@ -47,5 +47,15 @@ day = input("And the day?")
 #summer = [June,june,July,july,August,august]
 #fall = [September,september,October,october,November,november]
 
-#if moonth == month and day 
+if moonth == month and todaydate == day
+    print("Happy birthday!"
+elif year < 1980
+    age = Stone age
+elif year <1990
+    age = eighties
+elif year < 2000
+    age = nineties
+else
+    age = two thousands
+print(age)
 
