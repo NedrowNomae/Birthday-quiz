@@ -40,10 +40,10 @@ name = input("Hello, what is your name?")
 month = input("Hi " + name + ", what was the name of the month you were born in?")
 year = input("And what year were you born in, " +name + "?")
 day = input("And the day?")
-#winter = [December,december,January,january,February,february]
-#spring = [March,march,April,april,May,may]
-#summer = [June,june,July,july,August,august]
-#fall = [September,september,October,october,November,november]
+winter = [December,december,January,january,February,february]
+spring = [March,march,April,april,May,may]
+summer = [June,june,July,july,August,august]
+fall = [September,september,October,october,November,november]
 
 if str(moonth) == str(month) and int(todaydate) == int(day):
     print("Happy birthday!")
@@ -55,5 +55,5 @@ elif int(year) < int(2000):
     age = "nineties"
 else:
     age = "two thousands"
-
+if 
 
