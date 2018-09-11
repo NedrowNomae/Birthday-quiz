@@ -53,12 +53,12 @@ elif int(year) < int(2000):
 else:
     age = "two thousands."
 
-    if monthb == "December" or "January" or "February":
-        season = winter
-    elif monthb == "March" or "April" or "May":
-        season = spring
-    elif monthb == "June" or "July" or "August":
-        season = summer
-    else:
-        season = fall
+if monthb == "December" or "January" or "February":
+    season = winter
+elif monthb == "March" or "April" or "May":
+    season = spring
+elif monthb == "June" or "July" or "August":
+    season = summer
+else:
+    season = fall
 print(name + ", you are a " + season + " baby of the " + age)
