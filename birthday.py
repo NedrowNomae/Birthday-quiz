@@ -37,7 +37,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 moonth = month_name[todaymonth]
 name = input("Hello, what is your name?")
-month = input("Hi " + name + ", what was the name of the month you were born in?")
+monthb = input("Hi " + name + ", what was the name of the month you were born in?")
 year = input("And what year were you born in, " +name + "?")
 day = input("And the day?")
 #winter = [December,december,January,january,February,february]
@@ -45,7 +45,7 @@ day = input("And the day?")
 #summer = [June,june,July,july,August,august]
 #fall = [September,september,October,october,November,november]
 
-if str(moonth) == str(month) and int(todaydate) == int(day):
+if str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
 elif int(year) < int(1980):
     age = "Stone age."
@@ -56,11 +56,11 @@ elif int(year) < int(2000):
 else:
     age = "two thousands."
     
-if month == "December" or "January" or "February":
+if monthb == "December" or "January" or "February":
     print(name + ", you are a winter baby of the " + age)
-elif month == "March" or "April" or "May":
+elif monthb == "March" or "April" or "May":
     print(name + ", you are a spring baby of the " + age)
-elif month == "June" or "July" or "August":
+elif monthb == "June" or "July" or "August":
     print(name + ", you are a summer baby of the " + age)
 else:
     print(name + ", you are a fall baby of the " + age)
