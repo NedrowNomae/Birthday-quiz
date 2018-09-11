@@ -47,15 +47,15 @@ day = input("And the day?")
 #summer = [June,june,July,july,August,august]
 #fall = [September,september,October,october,November,november]
 
-if moonth == month and todaydate == day
-    print("Happy birthday!"
-elif year < 1980
+if moonth == month and todaydate == day:
+    print("Happy birthday!")
+elif year < 1980:
     age = Stone age
-elif year <1990
+elif year <1990:
     age = eighties
-elif year < 2000
+elif year < 2000:
     age = nineties
-else
+else:
     age = two thousands
 print(age)
 
