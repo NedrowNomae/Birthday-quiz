@@ -2,7 +2,7 @@
 birthday.py
 Author: Eamon
 Credit: none
-Assignment:
+Assignment:Birthday
 
 Your program will ask the user the following questions, in this order:
 
