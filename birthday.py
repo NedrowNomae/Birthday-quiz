@@ -47,7 +47,7 @@ if str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
 elif int(year) < int(1980):
     age = "Stone age."
-    if monthb == "December":
+if monthb == "December":
     season = "winter"
 elif monthb == "January":
     season = "winter"
