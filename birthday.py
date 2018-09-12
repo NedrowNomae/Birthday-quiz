@@ -43,9 +43,9 @@ day = input("And the day?")
 
 if monthb == "October" and day == 31:
     print("You were born on Halloween!")
-elif str(moonth) == str(monthb) and int(todaydate) == int(day):
+if str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
-elif int(year) < int(1980):
+if int(year) < int(1980):
     age = "Stone age."
 elif int(year) < int(1990):
     age = "eighties."
