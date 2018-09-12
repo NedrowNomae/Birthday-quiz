@@ -41,39 +41,40 @@ monthb = input("Hi " + name + ", what was the name of the month you were born in
 year = input("And what year were you born in, " +name + "?")
 day = input("And the day?")
 
-if monthb == "October" and day == 31:
+if monthb == "October" and int(day) == 31:
     print("You were born on Halloween!")
-if str(moonth) == str(monthb) and int(todaydate) == int(day):
+elif str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
-if int(year) < int(1980):
-    age = "Stone age."
-elif int(year) < int(1990):
-    age = "eighties."
-elif int(year) < int(2000):
-    age = "nineties."
 else:
-    age = "two thousands."
-if monthb == "December":
-    season = "winter"
-elif monthb == "January":
-    season = "winter"
-elif monthb == "February":
-    season = "winter"
-elif monthb == "March":
-    season = "spring"
-elif monthb == "April":
-    season = "spring"
-elif monthb == "May":
-    season = "spring"
-elif monthb == "June":
-    season = "summer"
-elif monthb == "July":
-    season = "summer"
-elif monthb == "August":
-    season = "summer"
-else:
-    season = "fall"
-print(name + ", you are a " + season + " baby of the " + age)
+    if int(year) < int(1980):
+        age = "Stone age."
+    elif int(year) < int(1990):
+        age = "eighties."
+    elif int(year) < int(2000):
+        age = "nineties."
+    else:
+        age = "two thousands."
+    if monthb == "December":
+        season = "winter"
+    elif monthb == "January":
+        season = "winter"
+    elif monthb == "February":
+        season = "winter"
+    elif monthb == "March":
+        season = "spring"
+    elif monthb == "April":
+        season = "spring"
+    elif monthb == "May":
+        season = "spring"
+    elif monthb == "June":
+        season = "summer"
+    elif monthb == "July":
+        season = "summer"
+    elif monthb == "August":
+        season = "summer"
+    else:
+        season = "fall"
+    print(name + ", you are a " + season + " baby of the " + age)
 
 """
 if monthb == "December":
