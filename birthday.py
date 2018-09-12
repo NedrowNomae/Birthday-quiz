@@ -45,6 +45,7 @@ if monthb == "October" and day == 31:
     print("You were born on Halloween!")
 if str(moonth) == str(monthb) and int(todaydate) == int(day):
     print("Happy birthday!")
+    break
 if int(year) < int(1980):
     age = "Stone age."
 elif int(year) < int(1990):
