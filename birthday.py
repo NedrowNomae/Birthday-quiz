@@ -71,7 +71,7 @@ print(name + ", you are a " + season + " baby of the " + age)
 
 elif int(year) <int(1990):
     age = "eighties."
-    if monthb == "December":
+if monthb == "December":
     season = "winter"
 elif monthb == "January":
     season = "winter"
