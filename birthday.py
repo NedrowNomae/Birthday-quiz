@@ -39,7 +39,7 @@ moonth = month_name[todaymonth]
 name = input("Hello, what is your name? ")
 monthb = input("Hi " + name + ", what was the name of the month you were bornin? ")
 year = input("And what year were you born in, " +name + "? ")
-day = input("And the day?")
+day = input("And the day? ")
 
 if monthb == "October" and int(day) == 31:
     print("You were born on Halloween!")
